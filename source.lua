@@ -15,8 +15,8 @@ function DevicesVM:Init()
     if game.CoreGui:GetAttribute("RunningDVM") then print("retard") return end --> Check if script already running for dumbasses that execute shit multiple times then complain its bugged
     game.CoreGui:SetAttribute("RunningDVM", true)
 
-    local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/devllce/Devices-VM/refs/heads/main/dependencies/functions.lua"))()
-    local Games = game:HttpGet("https://raw.githubusercontent.com/devllce/Devices-VM/refs/heads/main/dependencies/games.json")
+    local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/untitleddev11/Devices-VM/refs/heads/main/dependencies/functions.lua"))()
+    local Games = game:HttpGet("https://raw.githubusercontent.com/untitleddev11/Devices-VM/refs/heads/main/dependencies/games.json")
     local ImGui = loadstring(game:HttpGet('https://github.com/depthso/Roblox-ImGUI/raw/main/ImGui.lua'))()
 
     local Success, GamesData = pcall(function()
@@ -44,7 +44,7 @@ function DevicesVM:Init()
     RunService.RenderStepped:Wait()
 
     if PlaceId == nil then
-        setclipboard("https://github.com/devllce/Devices-VM/blob/main/dependencies/games.json")
+        setclipboard("https://github.com/untitleddev11/Devices-VM/blob/main/dependencies/games.json")
         LocalPlayer:Kick("This game is not supported! check our github repository to see supported games. (copied to ur clipboard)")
         return
 	end
@@ -69,7 +69,7 @@ function DevicesVM:Init()
 
     coroutine.wrap(function()
         local Window = ImGui:CreateWindow({
-            Title = "DVM - @devllce",
+            Title = "DVM - @dZay",
             Size = UDim2.fromOffset(550, 500),
             Position = UDim2.new(0.5, 0, 0, 70),
         })
