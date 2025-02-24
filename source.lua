@@ -69,7 +69,7 @@ function DevicesVM:Init()
 
     coroutine.wrap(function()
         local Window = ImGui:CreateWindow({
-            Title = "DVM - @dZay",
+            Title = "DVM - @Zay",
             Size = UDim2.fromOffset(550, 500),
             Position = UDim2.new(0.5, 0, 0, 70),
         })
