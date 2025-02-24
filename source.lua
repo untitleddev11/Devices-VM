@@ -175,7 +175,7 @@ function DevicesVM:Init()
             Selected = getgenv().CheatSettings.Aiming.BodyPart,
             Label = "body part",
             Items = {
-                "Head", "UpperTorso", "LowerTorso", "LeftUpperArm", "LeftLowerArm", "RightUpperArm", "RightLowerArm"
+                "Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"
             },
             Callback = function(self, Value)
                 getgenv().CheatSettings.Aiming.BodyPart = Value
