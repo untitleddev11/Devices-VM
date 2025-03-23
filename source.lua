@@ -69,7 +69,7 @@ function DevicesVM:Init()
 
     coroutine.wrap(function()
         local Window = ImGui:CreateWindow({
-            Title = "Best - @Macro",
+            Title = "DVM - SONDER",
             Size = UDim2.fromOffset(550, 500),
             Position = UDim2.new(0.5, 0, 0, 70),
         })
@@ -175,7 +175,7 @@ function DevicesVM:Init()
             Selected = getgenv().CheatSettings.Aiming.BodyPart,
             Label = "body part",
             Items = {
-                "Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"
+                "Head", "UpperTorso", "LowerTorso", "LeftUpperArm", "LeftLowerArm", "RightUpperArm", "RightLowerArm"
             },
             Callback = function(self, Value)
                 getgenv().CheatSettings.Aiming.BodyPart = Value
