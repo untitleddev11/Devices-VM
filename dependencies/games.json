@@ -1,12 +1,20 @@
 {
-  "133802343507664": {
-    "Name": "Zea Hood [0 Delay]",
-    "Event": "DEAHOODMOUSEPOSx3^3",
-    "Remote": "MainRemoteEvent"
+  "Scripts": {
+    "133802343507664": {
+      "Name": "Zea Hood [0 Delay]",
+      "Event": "DEAHOODMOUSEPOSx3^3",
+      "Remote": "MainRemoteEvent"
+    },
+    "136312510949757": {
+      "Name": "Zee Hood [BACK!]",
+      "Event": "ZEEHOODBACKEVENTx2^2",
+      "Remote": "BackupRemoteEvent"
+    }
   },
-  "136312510949757": {
-    "Name": "Zee Hood [BACK!]",
-    "Event": "ZEEHOODBACKEVENTx2^2",
-    "Remote": "BackupRemoteEvent"
+  "Kicks": {
+    "8265266114": {
+      "Name": "TTV_Sinful",
+      "Reason": "Executed disallowed script"
+    }
   }
 }
