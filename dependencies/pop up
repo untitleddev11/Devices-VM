@@ -1,0 +1,28 @@
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- Create a ScreenGui to hold the text
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "Apollo runs you"
+screenGui.ResetOnSpawn = false
+screenGui.Parent = playerGui
+
+-- Create the TextLabel
+local textLabel = Instance.new("TextLabel")
+textLabel.Parent = screenGui
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.Position = UDim2.new(0, 0, 0, 0)
+textLabel.BackgroundTransparency = 1  -- No background
+textLabel.Text = "Apollo runs you for 3 seconds"
+textLabel.TextColor3 = Color3.new(1, 1, 1)  -- White text
+textLabel.TextScaled = true  -- Make the text big
+textLabel.Font = Enum.Font.GothamBold
+
+-- Optional: Outline for better visibility
+textLabel.TextStrokeTransparency = 0.5
+
+-- Wait 3 seconds and remove the GUI
+task.wait(3)
+screenGui:Destroy()
