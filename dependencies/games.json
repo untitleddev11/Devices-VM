@@ -1,13 +1,3 @@
 {
-  "Scripts": {
-    "133802343507664": {
-      "Name": "Zea Hood [0 Delay]",
-      "Event": "DEAHOODMOUSEPOSx3^3",
-      "Remote": "MainRemoteEvent"
-    },
-    "136312510949757": {
-      "Name": "Zee Hood [BACK!]",
-      "Event": "ZEEHOODBACKEVENTx2^2",
-      "Remote": "BackupRemoteEvent"
-    }
-
+  "133802343507664": {"Name": "Zea Hood [0 Delay]", "Event": "DEAHOODMOUSEPOSx3^3", "Remote": "MainRemoteEvent"}
+}
