@@ -10,11 +10,4 @@
       "Event": "ZEEHOODBACKEVENTx2^2",
       "Remote": "BackupRemoteEvent"
     }
-  },
-  "Kicks": {
-    "8265266114": {
-      "Name": "TTV_Sinful",
-      "Reason": "Executed disallowed script"
-    }
   }
-}
