@@ -1,3 +1,18 @@
 {
-  "76141893529372": {"Name": "[MACRO] Model Hood", "Event": "DEAHOODMOUSEPOSx3^3", "Remote": "MainRemoteEvent"}
+  "Games": {
+    "133802343507664": {
+      "Name": "Zea Hood [0 Delay]",
+      "Scripts": {}
+    },
+    "9825515356": {
+      "Name": "[MACRO] Hood Customs",
+      "Scripts": {
+        "76141893529372": {
+          "Name": "[MACRO] Model Hood",
+          "Event": "DEAHOODMOUSEPOSx3^3",
+          "Remote": "MainRemoteEvent"
+        }
+      }
+    }
+  }
 }
